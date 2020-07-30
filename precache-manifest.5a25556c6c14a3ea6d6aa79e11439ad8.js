@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "1e9bf7bdea4d3bdef705cd3895622785",
+    "revision": "117c3884751460b94b2131852a611e00",
     "url": "/swiftcore/index.html"
   },
   {
-    "revision": "21adaab1030671b15a02",
-    "url": "/swiftcore/static/css/main.b8d99eac.chunk.css"
+    "revision": "e40ce9b7506ba0253143",
+    "url": "/swiftcore/static/css/main.126ae3a7.chunk.css"
   },
   {
     "revision": "c71b29ecb7ca8e1353c4",
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/swiftcore/static/js/2.e963fab4.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "21adaab1030671b15a02",
-    "url": "/swiftcore/static/js/main.f585cf4d.chunk.js"
+    "revision": "e40ce9b7506ba0253143",
+    "url": "/swiftcore/static/js/main.cd47f4be.chunk.js"
   },
   {
     "revision": "9d365b812f6e856822a1",

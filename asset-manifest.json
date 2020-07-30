@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/swiftcore/static/css/main.b8d99eac.chunk.css",
-    "main.js": "/swiftcore/static/js/main.f585cf4d.chunk.js",
-    "main.js.map": "/swiftcore/static/js/main.f585cf4d.chunk.js.map",
+    "main.css": "/swiftcore/static/css/main.126ae3a7.chunk.css",
+    "main.js": "/swiftcore/static/js/main.cd47f4be.chunk.js",
+    "main.js.map": "/swiftcore/static/js/main.cd47f4be.chunk.js.map",
     "runtime-main.js": "/swiftcore/static/js/runtime-main.f5cb67c1.js",
     "runtime-main.js.map": "/swiftcore/static/js/runtime-main.f5cb67c1.js.map",
     "static/js/2.e963fab4.chunk.js": "/swiftcore/static/js/2.e963fab4.chunk.js",
     "static/js/2.e963fab4.chunk.js.map": "/swiftcore/static/js/2.e963fab4.chunk.js.map",
     "index.html": "/swiftcore/index.html",
-    "precache-manifest.ca91d63f32bd818cd32037a9fe87de2e.js": "/swiftcore/precache-manifest.ca91d63f32bd818cd32037a9fe87de2e.js",
+    "precache-manifest.5a25556c6c14a3ea6d6aa79e11439ad8.js": "/swiftcore/precache-manifest.5a25556c6c14a3ea6d6aa79e11439ad8.js",
     "service-worker.js": "/swiftcore/service-worker.js",
-    "static/css/main.b8d99eac.chunk.css.map": "/swiftcore/static/css/main.b8d99eac.chunk.css.map",
+    "static/css/main.126ae3a7.chunk.css.map": "/swiftcore/static/css/main.126ae3a7.chunk.css.map",
     "static/js/2.e963fab4.chunk.js.LICENSE.txt": "/swiftcore/static/js/2.e963fab4.chunk.js.LICENSE.txt",
     "static/media/arrow-left.svg": "/swiftcore/static/media/arrow-left.f9a44e1c.svg",
     "static/media/arrow-right.svg": "/swiftcore/static/media/arrow-right.dc372a07.svg",
@@ -27,7 +27,7 @@
   "entrypoints": [
     "static/js/runtime-main.f5cb67c1.js",
     "static/js/2.e963fab4.chunk.js",
-    "static/css/main.b8d99eac.chunk.css",
-    "static/js/main.f585cf4d.chunk.js"
+    "static/css/main.126ae3a7.chunk.css",
+    "static/js/main.cd47f4be.chunk.js"
   ]
 }
