@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/swiftcore/precache-manifest.4e849d59fed34f8d2c6c67525a6ae0e1.js"
+  "/swiftcore/precache-manifest.8d1a99953b718c1d42b036bb87e7f520.js"
 );
 
 self.addEventListener('message', (event) => {
