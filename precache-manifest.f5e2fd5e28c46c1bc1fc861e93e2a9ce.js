@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "117c3884751460b94b2131852a611e00",
+    "revision": "79429111b3238b01891eeeb53098f8e7",
     "url": "/swiftcore/index.html"
   },
   {
-    "revision": "e40ce9b7506ba0253143",
-    "url": "/swiftcore/static/css/main.126ae3a7.chunk.css"
+    "revision": "3f861babe6503660e37f",
+    "url": "/swiftcore/static/css/main.734293d7.chunk.css"
   },
   {
-    "revision": "c71b29ecb7ca8e1353c4",
-    "url": "/swiftcore/static/js/2.e963fab4.chunk.js"
+    "revision": "997b94850a952a50d24f",
+    "url": "/swiftcore/static/js/2.701ca0fa.chunk.js"
   },
   {
     "revision": "43190b42fefe83e12b28e609399bf024",
-    "url": "/swiftcore/static/js/2.e963fab4.chunk.js.LICENSE.txt"
+    "url": "/swiftcore/static/js/2.701ca0fa.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "e40ce9b7506ba0253143",
-    "url": "/swiftcore/static/js/main.cd47f4be.chunk.js"
+    "revision": "3f861babe6503660e37f",
+    "url": "/swiftcore/static/js/main.db43ab51.chunk.js"
   },
   {
     "revision": "9d365b812f6e856822a1",
