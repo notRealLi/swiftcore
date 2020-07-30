@@ -1,0 +1,152 @@
+nav {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  background: url('../../assets/nav-background.jpg');
+  z-index: 1;
+
+  a {
+    position: relative;
+    &:after {
+      content: "";
+      position: absolute;
+      width: 0;
+      height: 2px;
+      right: 0;
+      top: 100%;
+      background: $black;
+      transition: 0.3s ease;
+    }
+
+    &:hover {
+      &:after {
+        left: 0;
+        width: 100%;
+      }
+    }
+  }
+
+  .nav-columns {
+    display: flex;
+    padding: 0 32px;
+    transform: translateY(125px);
+
+    @include media("<=654px") {
+      flex-direction: column;
+    }
+
+    @include media("<=phone") {
+      padding: 0 16px;
+    }
+    .nav-column {
+      width: 45%;
+
+      @include media("<=654px") {
+        width: 100%;
+      }
+
+      &:nth-child(2) {
+        width: 55%;
+
+        @include media("<=654px") {
+          width: 100%;
+        }
+      }
+
+      .nav-label {
+        margin-bottom: 3rem;
+        font-size: 1.2rem;
+
+        @include media("<=tablet") {
+          margin-bottom: 1.2rem;
+          font-size: 0.9rem;
+        }
+
+        @include media("<=phone") {
+          padding: 0 16px;
+        }
+      }
+
+      .nav-links {
+        margin: 0; // reset Navlink margin
+        padding: 0; // reset Navlink padding
+        li {
+          list-style: none;
+          margin-bottom: 2.8rem;
+
+          @include media("<=phone") {
+            margin-bottom: 1.6rem;
+          }
+
+          @include media("<=910px") {
+            margin-bottom: 2.3rem;
+          }
+
+          a {
+            text-decoration: none;
+            font-size: 2.5rem;
+            font-weight: 600;
+            color: $black;
+
+            @include media("<=910px") {
+              font-size: 2.3rem;
+            }
+
+            @include media("<=phone") {
+              font-size: 2rem;
+            }
+          }
+        }
+      }
+
+      .nav-infos {
+        display: flex;
+        flex-wrap: wrap;
+
+        @include media("<=654px") {
+          justify-content: space-between;
+        }
+
+        .nav-info {
+          padding: 0;
+          width: 50%;
+
+          // &:nth-child(2),
+          // &:nth-child(3) {
+          //   @include media("<=654px") {
+          //     display: none;
+          //   }
+          // }
+          .nav-info-label {
+            font-weight: 600;
+          }
+
+          li {
+            list-style: none;
+            font-size: 1.4rem;
+            font-weight: 300;
+            margin-bottom: 1.2rem;
+
+            @include media("<=tablet") {
+              font-size: 1.2rem;
+              margin-bottom: 1rem;
+            }
+
+            @include media("<=phone") {
+              font-size: 1rem;
+              margin-bottom: 0.9rem;
+            }
+
+            // a {
+            //   text-decoration: none;
+            //   color: $black;
+            // }
+          }
+        }
+      }
+    }
+  }
+}
