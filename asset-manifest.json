@@ -1,0 +1,33 @@
+{
+  "files": {
+    "main.css": "/static/css/main.97168d97.chunk.css",
+    "main.js": "/static/js/main.bf9e6d64.chunk.js",
+    "main.js.map": "/static/js/main.bf9e6d64.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.9e525bff.js",
+    "runtime-main.js.map": "/static/js/runtime-main.9e525bff.js.map",
+    "static/js/2.539db5ed.chunk.js": "/static/js/2.539db5ed.chunk.js",
+    "static/js/2.539db5ed.chunk.js.map": "/static/js/2.539db5ed.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.88b92cb5c651c977413d304ecfed3cf6.js": "/precache-manifest.88b92cb5c651c977413d304ecfed3cf6.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.97168d97.chunk.css.map": "/static/css/main.97168d97.chunk.css.map",
+    "static/js/2.539db5ed.chunk.js.LICENSE.txt": "/static/js/2.539db5ed.chunk.js.LICENSE.txt",
+    "static/media/arrow-left.svg": "/static/media/arrow-left.f9a44e1c.svg",
+    "static/media/arrow-right.svg": "/static/media/arrow-right.dc372a07.svg",
+    "static/media/curology-min.png": "/static/media/curology-min.e84c2055.png",
+    "static/media/logo.svg": "/static/media/logo.a6326f73.svg",
+    "static/media/lumin-min.png": "/static/media/lumin-min.379bad94.png",
+    "static/media/nav-background.jpg": "/static/media/nav-background.a39c103b.jpg",
+    "static/media/pic1.jpg": "/static/media/pic1.9a9cab82.jpg",
+    "static/media/pic2.jpg": "/static/media/pic2.380d7419.jpg",
+    "static/media/undraw_data_trends_b0wg-1.svg": "/static/media/undraw_data_trends_b0wg-1.ccf1f141.svg",
+    "static/media/up-arrow-circle.svg": "/static/media/up-arrow-circle.18f79814.svg",
+    "static/media/yourspace-min.png": "/static/media/yourspace-min.5f9e3077.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.9e525bff.js",
+    "static/js/2.539db5ed.chunk.js",
+    "static/css/main.97168d97.chunk.css",
+    "static/js/main.bf9e6d64.chunk.js"
+  ]
+}
