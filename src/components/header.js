@@ -6,7 +6,7 @@ import Logo from "../assets/logo.svg";
 
 let tl = gsap.timeline();
 
-const Header = ({ history, dimensions }) => {
+const Header = ({ history }) => {
   const [menuOpened, setMenuOpened] = useState(false);
 
   useEffect(() => {
@@ -18,7 +18,8 @@ const Header = ({ history, dimensions }) => {
       tl.to("body", 0, {
         delay: -0.5,
         css: { overflow: "hidden" },
-      })//.to("nav", 0, { css: { display: "block" } })
+      }).to("nav", 0, { css: { display: "block" } });
+      
       tl.to(".App", 1, {
         y: "60vh",
         ease: "expo.inOut",
@@ -113,7 +114,7 @@ const Header = ({ history, dimensions }) => {
         .to("body", 0, {
           css: { overflow: "auto" },
         })
-        //.to("nav", 0, { css: { display: "none" } });
+        .to("nav", 0, { css: { display: "none" } });
     }
   }, [menuOpened]);
 
@@ -122,8 +123,8 @@ const Header = ({ history, dimensions }) => {
       <div className="container">
         <div className="row v-center space-between">
           <div className="logo">
-            <NavLink to="/" exact>
-              <img src={Logo} alt=""/>
+            <NavLink to={process.env.PUBLIC_URL + "/"} exact>
+              <img src={Logo} alt="SwiftCore" />
             </NavLink>
           </div>
           <div className="nav-toggle">

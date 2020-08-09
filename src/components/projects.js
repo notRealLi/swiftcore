@@ -5,17 +5,17 @@ import { ReactComponent as NextIcon } from "../assets/arrow-right.svg";
 const projects = [
   {
     title: "Workflow Automation",
-    description: "Standardize and integrate your business operations for better efficiency.",
+    description: "Standardize and integrate your business operations.",
     image: "pic1.jpg",
   },
   {
     title: "Custom Applications",
-    description: "Build high quality apps ranging from web, mobile, cloud and desktop.",
+    description: "Build high quality multi-platform apps.",
     image: "pic2.jpg",
   },
   {
     title: "eCommerce Solutions",
-    description: "Upgrade your online store for better sales and fulfillment to generate profit.",
+    description: "Upgrade your online store for better sales and fulfillment.",
     image: "yourspace-min.png",
   },
 ];

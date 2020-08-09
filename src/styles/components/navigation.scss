@@ -1,5 +1,6 @@
 nav {
   position: fixed;
+  display: none;
   left: 0;
   top: 0;
   width: 100%;
@@ -42,7 +43,7 @@ nav {
       padding: 0 16px;
     }
     .nav-column {
-      width: 45%;
+      width: 48%;
 
       @include media("<=654px") {
         width: 100%;
@@ -112,7 +113,7 @@ nav {
 
         .nav-info {
           padding: 0;
-          width: 50%;
+          width: 45%;
 
           // &:nth-child(2),
           // &:nth-child(3) {

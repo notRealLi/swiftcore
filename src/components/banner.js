@@ -16,7 +16,7 @@ const Banner = () => {
             </div>
           </h2>
           <div className="btn-row">
-            <NavLink to="/contact" exact>
+            <NavLink to={process.env.PUBLIC_URL + "/contact"} exact>
               Message us <RightArrow />
             </NavLink>
           </div>

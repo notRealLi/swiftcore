@@ -9,7 +9,6 @@ import Navigation from "./components/navigation";
 
 const routes = [
   { path: "/", name: "Home", Component: Home },
-  { path: "/about", name: "About", Component: About },
   { path: "/contact", name: "Contact", Component: Contact },
 ];
 
@@ -46,8 +45,8 @@ function App() {
     <>
       <Header dimensions={dimensions} />
       <div className="App">
-        {routes.map(({ path, Component }) => (
-          <Route key={path} exact path={path}>
+        {routes.map(({ path, name, Component }) => (
+          <Route key={name} exact path={process.env.PUBLIC_URL + path}>
             <Component />
           </Route>
         ))}
